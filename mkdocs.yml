@@ -1,0 +1,99 @@
+site_name: Wavether
+site_url: https://www.wavether.com
+copyright: '&copy; 2024 <a href="http://www.wavether.com">Wavether</a>'
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search
+  - social:
+      cards_layout_options:
+        background_color: "#4481D6"
+        color: "#FFFFFF"
+        font_family: Arvo
+  - spellcheck:
+      backends:  # the backends you want to use
+      - codespell:  # or nested configs
+          dictionaries: [clear, rare, usage, code, names]
+      known_words: known_words.txt
+      ignore_code: yes
+      min_length: 2
+      max_capital: 1
+      allow_unicode: no
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+      truly_sane: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.prune
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - header.autohide
+  language: en
+  logo: assets/wavether-logo-border.svg
+  favicon: assets/wavether-favicon-border.png
+  custom_dir: docs/overrides
+  font:
+    text: Noto Sans
+    code: Roboto Mono
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+extra:
+  analytics:
+    provider: google
+    property: G-4KTPVVLD92
+nav:
+  - Home: index.md
+  - Products:
+      - products/index.md
+      - Amazon QuickSight Connector for Confluence:
+          - Quick Start: products/amazon-quicksight-connector-confluence/quick-start.md
+          - Release Notes: products/amazon-quicksight-connector-confluence/release-notes.md
+  - Security and Trust: security/security-trust.md
+  - Legal:
+      - Privacy Policy: legal/privacy.md
+      - EULA: legal/eula.md
+  - About: about.md

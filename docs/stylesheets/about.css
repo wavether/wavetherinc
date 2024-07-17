@@ -1,0 +1,62 @@
+.wide {
+  width: 85vw;
+  max-width: 90%;
+  margin-bottom: 1rem;
+}
+.tx-hero__content h2 {
+  font-size: 2rem;
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+.tx-hero__image img {
+  margin-top: 0rem;
+  filter: drop-shadow(5px 5px 5px rgb(43 43 43 / 0.4));
+}
+.profile {
+  margin-top: 2.5em;
+}
+.profile h2 {
+  font-weight: 700;
+  font-variant-caps: normal;
+  font-size: 1rem;
+}
+.profile h3 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+.profile p {
+  min-height: 0px;
+}
+.tx-container h1 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.photo {
+  border-radius: 35px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 150px;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+.top-hr h1 {
+  margin-left: 1rem;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 60em) {
+  .tx-hero__image img {
+    margin-top: 3.5rem;
+  }
+}

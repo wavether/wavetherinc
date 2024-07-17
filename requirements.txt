@@ -1,0 +1,4 @@
+mkdocs-material>=9.5
+mkdocs-material[imaging]
+mkdocs-spellcheck[codespell]
+mdx_truly_sane_lists
