@@ -25,7 +25,7 @@ The following is intended to be a quick start for those familiar with managing A
 
 ## Configure Amazon QuickSight to allow embedding visuals from Atlassian products
 
-In order to embed visuals from QuickSight on your Atlassian Cloud instance, you have to add the Atlassian Cloud domains to the \*\*Allow listing static domain" through the QuickSight console. Please following the instructions on [Amazon QuickSight User Guide, Allow listing static domains](https://docs.aws.amazon.com/quicksight/latest/user/embedding-static.html) and add the following Atlassian domains, including subdomains:
+In order to embed visuals from QuickSight on your Atlassian Cloud instance, you have to add the Atlassian Cloud domains to the **Allow listing static domain** through the QuickSight console. Please following the instructions on [Amazon QuickSight User Guide, Allow listing static domains](https://docs.aws.amazon.com/quicksight/latest/user/embedding-static.html) and add the following Atlassian domains, including subdomains:
 
 - https://[your-subdomain].atlassian.net
 - https://prod.atlassian-dev.net
