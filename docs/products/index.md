@@ -6,7 +6,7 @@
 
   ***
 
-  Embeds visuals from [Amazon QuickSight](https://aws.amazon.com/quicksight) into your contents on Atlassian Confluence.
+  Embeds dashboards and visuals from [Amazon QuickSight](https://aws.amazon.com/quicksight) into your contents on Atlassian Confluence.
 
   [:octicons-arrow-right-24: Try it Free](https://marketplace.atlassian.com/apps/FIXME/?utm=wavether_site)
 
