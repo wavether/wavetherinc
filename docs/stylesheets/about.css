@@ -35,7 +35,8 @@
   font-weight: 700;
 }
 .photo {
-  border-radius: 35px;
+  border-radius: 995px;
+  border: 2px solid var(--md-primary-bg-color);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   width: 150px;
 }

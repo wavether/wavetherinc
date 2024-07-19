@@ -165,51 +165,6 @@
   border-color: var(--md-accent-bg-color);
 }
 
-.tx-container-footer {
-  padding-top: 2rem;
-  background: var(--md-footer-bg-color);
-  color: var(--md-footer-fg-color);
-}
-.bottom-hr {
-  margin-top: 2.8rem;
-  margin-bottom: 2.8rem;
-  color: var(--md-footer-fg-color);
-}
-.bottom-hr .feature-item h1 {
-  font-size: 22px;
-  font-weight: 600;
-  font-variant-caps: all-small-caps;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  font-family: inherit;
-}
-.bottom-hr .feature-item p {
-  min-height: 0em;
-}
-.bottom-hr .feature-item a {
-  margin: 0;
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  min-height: 0em;
-}
-.bottom-hr .feature-item a:hover {
-  color: var(--md-accent-bg-color);
-}
-.bottom-hr .feature-item h2 {
-  font-size: 14px;
-  font-weight: 400;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  font-family: inherit;
-}
-.bottom-hr .feature-item p img {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  height: 20px;
-}
-
 @media screen and (min-width: 60em) {
   .md-sidebar {
     display: none;
@@ -238,16 +193,6 @@
   }
 
   .top-hr {
-    width: 100%;
-    display: flex;
-    max-width: 61rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 0.2rem;
-  }
-
-  .bottom-hr {
-    margin-top: 10px;
     width: 100%;
     display: flex;
     max-width: 61rem;
