@@ -8,6 +8,11 @@
   padding-top: 0;
 }
 
+.we-footer-content .feature-item {
+  margin: 0;
+  padding: 0;
+}
+
 .we-footer-content .feature-item h1 {
   color: var(--md-footer-fg-color);
   font-size: 22px;
