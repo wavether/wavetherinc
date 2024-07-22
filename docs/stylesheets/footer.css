@@ -3,7 +3,7 @@
 }
 
 .we-footer-content {
-  margin: 2rem;
+  margin: var(--md-left-margin--small) var(--md-left-margin--small);
   border: 0;
   padding-top: 0;
 }
@@ -47,19 +47,18 @@
   height: 20px;
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 60rem) {
   .we-footer-content {
-    width: 100%;
-    max-width: 61rem;
     display: flex;
-    padding-right: auto;
-    padding-left: auto;
+    max-width: 60rem;
+    padding-left: var(--md-left-margin);
     margin-right: auto;
     margin-left: auto;
 
     .feature-item {
       flex: 1;
-      max-width: 40rem;
+      min-width: 0;
+      padding-right: 2.8rem;
     }
   }
 }

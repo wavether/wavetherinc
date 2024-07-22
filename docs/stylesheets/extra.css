@@ -8,6 +8,10 @@
   --md-accent-bg-color: #f79a36;
   --md-footer-bg-color: #000000;
   --md-footer-fg-color: #f5f5f5;
+
+  --md-left-margin--small: 1rem;
+  --md-left-margin: 2rem;
+  --md-large-screen-min-width: 1220px;
 }
 
 .md-nav__title .md-nav__button.md-logo img {
