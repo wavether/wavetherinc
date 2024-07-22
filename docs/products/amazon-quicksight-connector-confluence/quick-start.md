@@ -2,7 +2,7 @@
 description: Amazon QuickSight Connector for Confluence
 ---
 
-The following is intended to be a quick start for those familiar with managing Amazon QuickSight and are looking to quickly deploy CAmazon QuickSight Connector for Confluence.
+The following is intended to be a quick start for those familiar with managing Amazon QuickSight and are looking to quickly deploy Amazon QuickSight Connector for Confluence.
 
 ## In this guide we'll do the following
 
