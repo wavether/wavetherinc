@@ -1,4 +1,4 @@
 ---
-title: About Wavether
+title: About Us
 template: about.html
 ---

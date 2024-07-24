@@ -7,9 +7,9 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#4481D6"
+        background_color: "#290a67"
         color: "#FFFFFF"
-        font_family: Arvo
+        font_family: Open Sans
   - spellcheck:
       backends:  # the backends you want to use
       - codespell:  # or nested configs
@@ -53,7 +53,7 @@ theme:
     - header.autohide
   language: en
   logo: assets/wavether-logo-border.svg
-  favicon: assets/wavether-favicon-border.png
+  favicon: assets/wavether-favicon.png
   custom_dir: docs/overrides
   font:
     text: Noto Sans
