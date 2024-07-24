@@ -15,7 +15,7 @@
   }
 }
 
-.filtered img {
+.filtered {
   filter: invert(150%) saturate(188%) hue-rotate(185deg);
 }
 

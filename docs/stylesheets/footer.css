@@ -47,6 +47,11 @@
   height: 20px;
 }
 
+.we-footer-content .feature-item p img.link-external {
+  margin: 0 0 0 0.2em;
+  height: 0.8em;
+}
+
 @media screen and (min-width: 60rem) {
   .we-footer-content {
     display: flex;
