@@ -55,9 +55,7 @@ theme:
   logo: assets/wavether-logo-border.svg
   favicon: assets/wavether-favicon.png
   custom_dir: docs/overrides
-  font:
-    text: Noto Sans
-    code: Roboto Mono
+  font: false
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
