@@ -19,7 +19,7 @@ The following is intended to be a quick start for those familiar with managing A
 
 ## Step 1. Installation
 
-1. Install [Amazon QuickSight Connector for Confluence](https://marketplace.atlassian.com/apps/FIXME/FIXME?utm=wavether_site) on the Atlassian Marketplace on your desired Confluence instance.
+1. Install [Amazon QuickSight Connector for Confluence](https://marketplace.atlassian.com/1234924?utm=wavether_site) on the Atlassian Marketplace on your desired Confluence instance.
 1. Once installed, you can find Amazon QuickSight Connector for Confluence in the top-level **Apps** menu, under **Manage apps**.
 1. The app does not require any admin configurations.
 
