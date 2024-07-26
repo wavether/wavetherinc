@@ -90,6 +90,9 @@ nav:
       - Amazon QuickSight Connector for Confluence:
           - Quick Start: products/amazon-quicksight-connector-confluence/quick-start.md
           - Release Notes: products/amazon-quicksight-connector-confluence/release-notes.md
+      - Datadog Connector for Confluence:
+          - Quick Start: products/datadog-connector-confluence/quick-start.md
+          - Release Notes: products/datadog-connector-confluence/release-notes.md
   - Security and Trust: security/security-trust.md
   - Legal:
       - Privacy Policy: legal/privacy.md
