@@ -70,8 +70,6 @@ The app does not require any global or space level configuration. You can start 
 
 ## Frequently Asked Questions (FAQs)
 
-Remember, ongoing retention management is critical to conform to the array of laws and regulations, how you plan on enforcing is up to your team's operational plan. With Amazon QuickSight Connector for Confluence to can decide how much automation or manual process you would like. We recommend starting with manual auditing and removal for a period of time as you get familiar with the product. This will also make sure you don't accidentally remove something important.
-
 ### FAQ-1. Why I cannot see the embedded visuals?
 
 There are a few possible reasons:
