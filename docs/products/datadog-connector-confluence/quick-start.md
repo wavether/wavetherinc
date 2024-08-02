@@ -17,7 +17,7 @@ The following is intended to be a quick start for those familiar with managing D
 
 ## Step 1. Installation
 
-1. Install [Datadog Connector for Confluence](https://marketplace.atlassian.com/FIXME?utm=wavether_site) on the Atlassian Marketplace on your desired Confluence instance.
+1. Install [Datadog Connector for Confluence](https://marketplace.atlassian.com/1234983?utm=wavether_site) on the Atlassian Marketplace on your desired Confluence instance.
 1. Once installed, you can find Datadog Connector for Confluence in the top-level **Apps** menu, under **Manage apps**.
 1. The app does not require any admin configurations.
 
