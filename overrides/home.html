@@ -1,0 +1,105 @@
+<!-- Custom HTML site displayed as the Home chapter -->
+
+{% extends "main.html" %} {% block tabs %} {{super()}}
+<link rel="stylesheet" href="stylesheets/pages.css" />
+
+<!-- Main site Entry button descriptions -->
+<section class="tx-container">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image ">
+        <img alt="software solution building blocks" class="filtered" src="assets/hero-1.svg" draggable="false" />
+      </div>
+      <div class="tx-hero__content">
+        <h1>
+          Building enterprise software solutions for businesses of all sizes
+        </h1>
+        <h2>
+          We specialize in building custom solutions on top of the Atlassian Cloud platform and help you optimize your
+          operations and streamline workflows.
+        </h2>
+        <p>
+          We are here to help you so you can:
+        </p>
+        <ul>
+          <li>Focus on what matters most - your core business </li>
+          <li>Leverage
+            our expertise to build custom solutions that integrate seamlessly with
+            your existing tools </li>
+          <li>Enjoy the benefits of a single, unified platform
+            for all your Atlassian needs</li>
+        </ul>
+        <p>
+          <a href="#learnmore" title="Learn More" class="md-button">
+            Learn More
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="learnmore" class="tx-container tx-container-light">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img alt="chaotic software building blocks" src="assets/hero-2.svg" draggable="false" />
+      </div>
+      <div class="tx-hero__content">
+        <h1>Too many SaaS platforms and too little time?</h1>
+
+        <p>At Wavether, we're passionate about helping organizations like yours
+          continuously improving your tooling so you can move faster. We focus on
+          building software tools to optimize workflows, improve collaboration,
+          and enhance overall productivity across SaaS services so they work
+          better together for you.</p>
+
+        <h1>We can help!</h1>
+
+        <p>We offer a range of ready-to-use apps on
+          Atlassian Marketplace you can choose from. Not finding what you need? We
+          can build custom solutions tailored to your specific needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main site box descriptions -->
+<section class="tx-container">
+  <div class="top-hr">
+    <div class="feature-item">
+      <h2>Expertise</h2>
+      <p>
+        Our team of experts has extensive experience in building custom
+        solutions on top of Atlassian. We have the knowledge and skills to
+        help you optimize your operations and streamline your workflows.
+      </p>
+    </div>
+    <div class="feature-item">
+      <h2>Custom Solutions</h2>
+      <p>
+        We offer custom solutions tailored to your specific needs. Whether
+        you need a custom app, integration with other tools, or expert
+        consulting, we can help you get the most out of your Atlassian
+        platform.
+      </p>
+    </div>
+    <div class="feature-item">
+      <h2>Exceptional Results</h2>
+      <p>
+        We're dedicated to delivering exceptional results and exceeding our
+        clients' expectations. With our expertise and custom solutions, we
+        can help you achieve your goals and optimize your operations.
+      </p>
+    </div>
+</section>
+
+{% include "footer.html" %}
+
+{% endblock %} {% block content %}<style>
+  .md-main {
+    height: 0;
+    padding: 0;
+    margin: 0;
+  }
+</style>{% endblock %}

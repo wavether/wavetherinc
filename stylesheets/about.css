@@ -1,0 +1,36 @@
+.logos {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.logos img {
+  max-width: 10rem;
+  filter: drop-shadow(5px 5px 5px rgb(43 43 43 / 0.4));
+}
+
+.profile h2 {
+  font-weight: 700;
+  font-variant-caps: normal;
+  font-size: 1rem;
+}
+.profile h3 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+.profile p {
+  min-height: 0px;
+}
+
+.profile .photo {
+  border-radius: 25px;
+  border: 2px solid var(--md-primary-bg-color);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 150px;
+}
+
+.profile .social-icon {
+  width: 16px;
+  height: 16px;
+}
