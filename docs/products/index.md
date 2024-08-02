@@ -29,7 +29,7 @@
 
   Embeds graphs from [Datadog](https://datadoghq.com) into your contents on Atlassian Confluence.
 
-  Coming to the Atlassian Marketplace soon!
+  [:octicons-arrow-right-24: Try it Free](https://marketplace.atlassian.com/1234983?utm=wavether_site)
 
     <p class="video-wrapper">
       <iframe class='youtube-embed' width="960" height="540" src="https://www.youtube.com/embed/YCI5OyEqFTw?si=jSv06wUKBcyX9ijs&autoplay=1&playlist=YCI5OyEqFTw&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
